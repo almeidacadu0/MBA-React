@@ -1,0 +1,20 @@
+Roteiro - Desafio Final
+=======================
+
+(x) "Subir" backend
+(x) Copiar pasta "img" para "public"
+(x) Mostrar atualização de .env
+(x) "Subir" frontend
+(x) Renomear projeto
+(x) Instalar react-router-dom@5
+(x) Criar api/api.js com função para manipular os dados
+(x) Montar rotas de 2003 a 2015 de forma dinâmica
+(x) Utilizar <NavLink /> com activeClassName
+
+(x) Após o conjunto de <NavLinks>, renderizar <ChampionshipPage />
+   e <Route> com <Redirect> para 2003
+
+(x) Em ChampionshipPage, "chavear" o ano do campeonato com useLocation
+(x) Renderizar os dados em tela
+() Resolver questão das imagens
+

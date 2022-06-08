@@ -1,0 +1,25 @@
+Roteiro - Ambiente
+==================
+
+(x) Falar rapidamente sobre o ambiente Windows x Linux x MacOS
+(x) Criar link para o prompt de comando no Desktop
+(x) Criar link para react-student no Desktop
+(x) Abrir prompt de comando e provar que o Node não está instalado
+(x) Verificar site do Node.js e ver a versão atual LTS (https://nodejs.org/)
+(x) Instalar Node.js completo 
+(x) Testar os comandos "node -v", "npm -v" e "npx -v" no prompt de comando
+(x) Instalar yarn com "npm install -g yarn"
+(x) Testar yarn com "yarn -v"
+(x) Instalar rimraf com "npm i -g rimraf"
+(x) Instalar serve com "npm i -g serve"
+(x) Baixar VSCode no formato .zip - https://code.visualstudio.com/
+(x) Instalar e configurar VSCode Portable - https://code.visualstudio.com/docs/editor/portable
+(x) Inserir conteúdo de settings.json no VSCode
+(x) Voltar ao prompt de comando e criar app com "npx create-react-app ambiente"
+(x) Abrir app no VSCode
+(x) Falar sobre a fonte JetBrains Mono
+(x) Executar app com "yarn start"
+(x) Testar hot reloading do app
+(x) "Limpar" o app
+(x) Mostrar alternativa com um Projeto Base
+(x) Concluir aula

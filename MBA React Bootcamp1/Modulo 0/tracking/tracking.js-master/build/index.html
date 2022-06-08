@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tracking JS</title>
+
+    <script src="tracking-min.js"></script>
+    <script scr="face-min.js"></script>
+  </head>
+  <body>
+    <video
+      id="video"
+      width="320"
+      height="240"
+      preload
+      autoplay
+      loop
+      muted
+    ></video>
+    <canvas id="canvas" width="320" height="240"></canvas>
+
+    <script>
+      window.onload = function () {
+        var video = document.getElementById("video");
+        var canvas = document.getElementById("canvas");
+        var context = canvas.getContext("2d");
+
+        var tracker = new tracking.ObjectTracker("face");
+        //tracking.tracker("#video", tracker, { camera: true });
+
+        //tracker.on("track", (event) => {
+        //console.log("procurand por rosto");
+        //});
+      };
+    </script>
+  </body>
+</html>
